@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    font-family: sans-serif;
+    font-family: ;
 }
 h1{
     font-size: 35px;
@@ -32,7 +32,7 @@ h2{
 }
 section{
     height: 500px;
-    padding-bottom: 200px;
+    padding-bottom: 100px;
 }
 .link-button{
     text-decoration: none;
@@ -41,6 +41,10 @@ section{
     border-radius: 5px;
     color: white;
     font-weight: 700;
+}
+.link-button:hover{
+    color: blue;
+    font-size: 25px;
 }
 .dream-area{
     background-image: url(Image/dream-bg.png);
@@ -68,6 +72,18 @@ section{
     border-image: linear-gradient(180deg, blue, cyan);
     border-image-slice: 1;
 }
+li:nth-child(2n+1){
+    color: blue;
+    background-color: antiquewhite;
+    font-size: 20px;
+}
+a:visited{
+    color: red;
+}
+
 .buttom{
     text-align: center;
+}
+p::before{
+    content: "💖";
 }
